@@ -1,0 +1,27 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0",
+    "extra_flags": "-DSTM32F0 -DSTM32F070x6",
+    "ldscript": "STM32F070F6PX_FLASH.ld",
+    "f_cpu": "48000000L",
+    "mcu": "stm32f070f6p6",
+    "product_line": "STM32F070",
+    "variant": "STM32F070F6P6"
+  },
+  "debug": {
+    "openocd_target": "stm32f0x",
+    "svd_path": "STM32F0x0.svd"
+  },
+  "name": "SEM Tanfolyampanel 2025",
+  "upload": {
+    "maximum_ram_size": 6144,
+    "maximum_size": 32768,
+    "protocol": "cmsis-dap",
+    "protocols": [
+      "cmsis-dap"
+    ]
+  },
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f070f6.html",
+  "vendor": "Schönherz Elektronikai Műhely"
+}
